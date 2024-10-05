@@ -24,20 +24,19 @@ body{
     background-color: #121212;
 }
 
-.btn-simple {
+.btn {
+    background-color: #0077B5; 
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
-    background-color: #3498db;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-simple:hover {
-    background-color: #1E90FF;
-  }
+}
+
+.btn:hover {
+    background-color: #005582; 
+}
 h3{
    color: #E0E0E0;
 }
